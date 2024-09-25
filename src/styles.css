@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: rgb(255, 255, 255);
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.country-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: left;
+}
+
+.country-card img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  float: left;
+  border: 5px solid #000000;
+  margin: 5px;
+}
+
+h2 {
+  position: center;
+  padding: 15px;
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
